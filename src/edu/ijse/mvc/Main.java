@@ -7,6 +7,7 @@ package edu.ijse.mvc;
 import edu.ijse.mvc.db.DBConnection;
 import edu.ijse.mvc.view.ItemView;
 import edu.ijse.mvc.view.CustomerView;
+import edu.ijse.mvc.view.LayoutFrame;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.logging.Level;
@@ -31,8 +32,8 @@ public class Main {
         }
 //        ItemView itemView = new ItemView();
 //        itemView.setVisible(true);
-        CustomerView customerView = new CustomerView();
-        customerView.setVisible(true);
+//        
+        new LayoutFrame().setVisible(true);
     }
     
 }
