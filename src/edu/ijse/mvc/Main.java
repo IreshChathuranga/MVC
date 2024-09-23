@@ -8,6 +8,7 @@ import edu.ijse.mvc.db.DBConnection;
 import edu.ijse.mvc.view.ItemView;
 import edu.ijse.mvc.view.CustomerView;
 import edu.ijse.mvc.view.LayoutFrame;
+import edu.ijse.mvc.view.OrderPlacePanel;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.logging.Level;
@@ -34,6 +35,7 @@ public class Main {
 //        itemView.setVisible(true);
 //        
         new LayoutFrame().setVisible(true);
+        
     }
     
 }
